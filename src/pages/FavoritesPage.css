@@ -1,0 +1,22 @@
+.favorites-section {
+  margin-top: 40px;
+}
+
+.favorites-section h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.empty-message {
+  font-style: italic;
+  color: #777;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
